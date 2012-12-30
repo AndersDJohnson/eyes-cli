@@ -1,16 +1,16 @@
 # eyes-cli
 
-CLI JSON inspector with eyes.js (cloudhead/eyes.js).
+CLI JSON inspector with [eyes.js](eyes) from .
 
 ## Install
 
-```
-npm install -g eyes-cli
+```shell
+$ npm install -g eyes-cli
 ```
 
 ## Usage
 
-```
+```shell
 $ eyes --help
 Usage: eyes [options] <file ...>
 
@@ -28,7 +28,7 @@ Usage: eyes [options] <file ...>
 ### Sources
 
 #### From file:
-```
+```shell
 $ ls
 package.json component.json
 
@@ -36,7 +36,7 @@ $ eyes package.json
 ```
 
 #### Or many files:
-```
+```shell
 $ ls
 package.json component.json
 
@@ -44,14 +44,16 @@ $ eyes package.json component.json
 ```
 
 #### Pipe from any source:
-```
+```shell
 $ curl -s "https://api.github.com/users/AndersDJohnson" | eyes
 ```
 
-```
+```shell
 $ echo '{"foo": {"bar": 0}}' | eyes 
 {
     foo: { bar: 0 }
 }
 ```
 
+[eyes]: https://github.com/cloudhead/eyes.js
+[cloudhead]: https://github.com/cloudhead/
