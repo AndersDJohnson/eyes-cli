@@ -1,6 +1,6 @@
 {
     "name": "eyes-cli"
-  , "version": "0.0.0"
+  , "version": "0.0.1"
   , "description": "CLI JSON inspector with cloudhead/eyes.js"
   , "url": "https://github.com/AndersDJohnson/eyes-cli"
   , "homepage": "https://github.com/AndersDJohnson/eyes-cli"
@@ -41,6 +41,7 @@
       }
   , "dependencies":
       { "eyes": "~0.1.8"
+      , "colors": "*"
       , "commander": "~1.1.1"
       , "pkginfo": "~0.2.3"
       , "underscore": "~1.4.3"
