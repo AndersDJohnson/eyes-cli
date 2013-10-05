@@ -1,6 +1,6 @@
 # eyes-cli
 
-CLI JSON inspector with [eyes.js][eyes] from [cloudhead][cloudhead]. Pretty colors!
+> CLI JSON inspector with [eyes.js][eyes] from [cloudhead][cloudhead]. Pretty colors!
 
 ## Install
 
