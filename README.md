@@ -1,5 +1,8 @@
 # eyes-cli
 
+[![NPM version](https://badge.fury.io/js/eyes-cli.png)](http://badge.fury.io/js/eyes-cli)
+[![NPM dependencies](https://david-dm.org/AndersDJohnson/eyes-cli.png)](https://david-dm.org/AndersDJohnson/eyes-cli)
+
 > CLI JSON inspector with [eyes.js][eyes] from [cloudhead][cloudhead]. Pretty colors!
 
 ## Install
