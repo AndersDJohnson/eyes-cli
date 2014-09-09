@@ -1,57 +1,58 @@
 {
-    "name": "eyes-cli"
-  , "version": "0.0.1"
-  , "description": "CLI JSON inspector with cloudhead/eyes.js"
-  , "url": "https://github.com/AndersDJohnson/eyes-cli"
-  , "homepage": "https://github.com/AndersDJohnson/eyes-cli"
-  , "author":
-      { "name" : "Anders D. Johnson"
-      , "url" : "https://github.com/AndersDJohnson"
-      }
-  , "keywords":
-      [ "eyes"
-      , "cli"
-      , "json"
-      , "inspector"
-      , "debug"
-      , "inspect"
-      , "print"
-      ]
-  , "bugs": "https://github.com/AndersDJohnson/eyes-cli/issues"
-  , "repository":
-      { "type" : "git"
-      , "url" : "http://github.com/AndersDJohnson/eyes-cli.git"
-      }
-  , "licenses":
-      [ { "type": "MIT"
-        , "url": "https://raw.github.com/AndersDJohnson/eyes-cli/master/LICENSE"
-        }
-      ]
-  , "preferGlobal": "true"
-  , "bin":
-      { "eyes": "./bin/eyes"
-      }
-  , "main": "./lib/Main.js"
-  , "directories":
-      { "lib": "./lib"
-      , "test": "./test"
-      }
-  , "scripts":
-      { "test" : "make test"
-      }
-  , "dependencies":
-      { "eyes": "~0.1.8"
-      , "colors": "*"
-      , "commander": "~1.1.1"
-      , "pkginfo": "~0.2.3"
-      , "underscore": "~1.4.3"
-      }
-  , "devDependencies":
-      {
-        "coffee-script": "1.4.0"
-      }
-  , "engines":
-      {
-        "node": ">=0.6.0"
-      }
+  "name": "eyes-cli",
+  "version": "0.0.2",
+  "description": "CLI JSON inspector with cloudhead/eyes.js",
+  "url": "https://github.com/AndersDJohnson/eyes-cli",
+  "homepage": "https://github.com/AndersDJohnson/eyes-cli",
+  "author": {
+    "name": "Anders D. Johnson",
+    "url": "https://github.com/AndersDJohnson"
+  },
+  "keywords": [
+    "eyes",
+    "cli",
+    "json",
+    "inspector",
+    "debug",
+    "inspect",
+    "print"
+  ],
+  "bugs": "https://github.com/AndersDJohnson/eyes-cli/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/AndersDJohnson/eyes-cli.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/AndersDJohnson/eyes-cli/master/LICENSE"
+    }
+  ],
+  "preferGlobal": "true",
+  "main": "./lib/Main.js",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "bin": {
+    "eyes": "./cli.js"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "eyes": "~0.1.8",
+    "colors": "*",
+    "commander": "~1.1",
+    "pkginfo": "~0.3",
+    "underscore": "~1.7",
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.4.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
 }
