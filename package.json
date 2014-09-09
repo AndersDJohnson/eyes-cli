@@ -42,11 +42,11 @@
     "start": "node cli.js"
   },
   "dependencies": {
-    "eyes": "~0.1.8",
-    "colors": "*",
-    "commander": "~1.1",
-    "pkginfo": "~0.3",
-    "underscore": "~1.7",
+    "eyes": "^0.1.8",
+    "colors": "^0.6",
+    "commander": "^1.1",
+    "pkginfo": "^0.3",
+    "underscore": "^1.7",
     "coffee-script": "^1.8.0"
   },
   "devDependencies": {
