@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ROOT="$(dirname $(realpath "$0"))/.."
-EYES="${ROOT}/bin/eyes"
+EYES="node ${ROOT}/cli.js"
 
 fail() {
 	 echo "Failed test \"$1\""
