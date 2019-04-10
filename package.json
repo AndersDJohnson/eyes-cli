@@ -1,13 +1,10 @@
 {
   "name": "eyes-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "CLI JSON inspector with cloudhead/eyes.js",
   "url": "https://github.com/AndersDJohnson/eyes-cli",
   "homepage": "https://github.com/AndersDJohnson/eyes-cli",
-  "author": {
-    "name": "Anders D. Johnson",
-    "url": "https://github.com/AndersDJohnson"
-  },
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "keywords": [
     "eyes",
     "cli",
